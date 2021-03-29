@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Pogotowie komputerowe</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="styl.css">
+    <script src="skrypt.js"></script>
+</head>
+<body>
+    <div class="baner"><img src="animacja.gif"></div>
+    <div class="menu"><a class="a" href="index.html">O nas</a> <a class="a" href="kontakt.html">Kontakt</a></div>
+    <div>
+        <div class="main"></div> 
+        <div class="main">
+            <h3>Formularz kontaktowy</h3>
+            <table>
+                <tr>
+                    <td>Imię:</td>
+                    <td><input id="1" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Nazwisko:</td>
+                    <td><input id="2" type="text"></td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input id="3" type="text"></td>
+                </tr>
+                <tr>
+                    <td>Usługa:</td>
+                    <td><select id="4">
+                        <option>naprawa komputera</option>
+                        <option>odzyskiwanie danych</option>
+                        <option>problemy z oprogramowanien</option>
+                        <option>konfiguracja sieci LAN</option>
+                        <option>inne</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" checked>
+                        Wyślij kopię wiadomości</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td></td>
+                <td><button style="background-color: #ff0000;">Resetuj</button>
+                <button style="background-color: #00ff00;" onclick="dane()">Prześlij</button></td>
+            </tr>
+            </table>
+            <p id="wynik"></p>
+        </div>
+        <div class="main"></div>
+    </div>
+    <div class="stopka"><a style="float: left;" href="klatki.jpg">klatki.jpg</a>
+        <p>Autor strony: <b>Tomasz Bębenkowski</b></p>
+    </div>
+</body>
+</html>
